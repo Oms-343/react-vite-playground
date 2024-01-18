@@ -1,10 +1,10 @@
-import viteLogo from "/vite.svg";
-
 function App() {
+  function handleGenerateCards() {}
+
   return (
     <div>
       <h1>Pair Up</h1>
-      <button>New Game</button>
+      <button onClick={handleGenerateCards}>New Game</button>
     </div>
   );
 }
